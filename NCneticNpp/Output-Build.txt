@@ -1,0 +1,14 @@
+﻿1>------ Build started: Project: NCneticCore, Configuration: Release Any CPU ------
+1>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3267: The primary reference "System.Net.Http", which is a framework assembly, could not be resolved in the currently targeted framework. ".NETFramework,Version=v4.0". To resolve this problem, either remove the reference "System.Net.Http" or retarget your application to a framework version which contains "System.Net.Http".
+1>  NCneticCore -> C:\Users\Acer\Documents\Visual Studio 2017\Projects\NCneticNpp-main\NCneticNpp-main\NCneticCore\bin\Release\NCneticCore.dll
+1>  Running Code Analysis...
+1>  Code Analysis Complete -- 0 error(s), 0 warning(s)
+2>------ Build started: Project: NCneticCore.View, Configuration: Release Any CPU ------
+2>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(2110,5): warning MSB3267: The primary reference "System.Net.Http", which is a framework assembly, could not be resolved in the currently targeted framework. ".NETFramework,Version=v4.0". To resolve this problem, either remove the reference "System.Net.Http" or retarget your application to a framework version which contains "System.Net.Http".
+2>C:\Users\Acer\Documents\Visual Studio 2017\Projects\NCneticNpp-main\NCneticNpp-main\NCneticCore.View\ncView.cs(1650,17,1650,96): warning CS0618: 'GL.GetProgram(int, ProgramParameter, out int)' is obsolete: 'Use GetProgramParameterName overload instead'
+2>C:\Users\Acer\Documents\Visual Studio 2017\Projects\NCneticNpp-main\NCneticNpp-main\NCneticCore.View\ncView.cs(1651,17,1651,92): warning CS0618: 'GL.GetProgram(int, ProgramParameter, out int)' is obsolete: 'Use GetProgramParameterName overload instead'
+2>  NCneticCore.View -> C:\Users\Acer\Documents\Visual Studio 2017\Projects\NCneticNpp-main\NCneticNpp-main\NCneticCore.View\bin\Release\NCneticCore.View.dll
+3>------ Build started: Project: NCneticNpp, Configuration: Release x86 ------
+3>  Merge PDBs: true
+3>  Merged assemblies: C:\Users\Acer\Documents\Visual Studio 2017\Projects\NCneticNpp-main\NCneticNpp-main\NCneticNpp\obj\x86\Release\NCneticNpp.dll;C:\Users\Acer\Documents\Visual Studio 2017\Projects\NCneticNpp-main\NCneticNpp-main\NCneticCore\bin\Release\NCneticCore.dll;C:\Users\Acer\Documents\Visual Studio 2017\Projects\NCneticNpp-main\NCneticNpp-main\NCneticCore.View\bin\Release\NCneticCore.View.dll;;C:\Users\Acer\.nuget\packages\\opentk\3.1.0\lib\net20\OpenTK.dll;C:\Users\Acer\.nuget\packages\\opentk.glcontrol\3.1.0\lib\net20\OpenTK.GLControl.dll
+========== Build: 3 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
